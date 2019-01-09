@@ -1,0 +1,10 @@
+git@github.com:vim-scripts/a.vim.git
+git@github.com:majutsushi/tagbar.git
+git@github.com:solarnz/thrift.vim.git
+git@github.com:tomasr/molokai.git
+git@github.com:luochen1990/rainbow.git
+git@github.com:vim-airline/vim-airline.git
+git@github.com:kien/ctrlp.vim.git
+github.com/vim-airline/vim-airline-themes
+git@github.com:fatih/vim-go.git
+git@github.com:scrooloose/nerdtree.git
