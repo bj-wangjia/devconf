@@ -6,6 +6,9 @@
 	ci = commit
 	br = branch
     st = status
+	d = difftool
 
 [diff]
 	tool = vimdiff
+[difftool]
+	prompt = false

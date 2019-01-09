@@ -77,9 +77,10 @@ let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_theme='simple'
+"let g:airline_theme='simple'
 
 " tagbar
+map <F2> :TagbarToggle<cr>
 autocmd VimEnter *.h  nested TagbarOpen
 autocmd VimEnter *.cpp  nested TagbarOpen
 autocmd VimEnter *.c  nested TagbarOpen
@@ -90,3 +91,8 @@ let tagbar_width=25
 colorscheme molokai
 "let g:rehash256 = 1
 "let g:molokai_original = 1
+
+" NERDTree
+"autocmd vimenter * NERDTree
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
