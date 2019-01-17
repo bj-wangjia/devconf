@@ -81,6 +81,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " tagbar
 map <F2> :TagbarToggle<cr>
+map <F3> :A<cr>
 autocmd VimEnter *.h  nested TagbarOpen
 autocmd VimEnter *.cpp  nested TagbarOpen
 autocmd VimEnter *.c  nested TagbarOpen
