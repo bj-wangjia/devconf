@@ -9,4 +9,5 @@ git@github.com:fatih/vim-go.git
 git@github.com:scrooloose/nerdtree.git
 git@github.com:vim-airline/vim-airline-themes.git
 git@github.com:tpope/vim-fugitive.git
+git@github.com:vim-scripts/EasyGrep.git
 git@github.com:bj-wangjia/vim-header.git
