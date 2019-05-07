@@ -1,5 +1,5 @@
 let g:user_name = 'wangjia'
-let g:user_email = 'wangjia@mitegral.com'
+let g:user_email = '809946525@qq.com'
 
 set nocompatible
 set encoding=utf8
