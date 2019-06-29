@@ -56,7 +56,7 @@ function main
 
     sed -i "s/let g:user_name.*/let g:user_name = '$user_name'/g"  $dir/vimrc
     sed -i "s/let g:user_email.*/let g:user_email = '$user_email'/g"  $dir/vimrc
+    download_plugin plugin_list.txt
 }
 
-#download_plugin plugin_list.txt
 main
