@@ -1,5 +1,17 @@
+" ********************************************************************************* "
+"                                                                                   "
+"                                                     :::::   :::#:::       :       "
+"  File: .vimrc                                         #        #          #       "
+"                                                       #        #         : :      "
+"  By: wangjia <wangjia@mitegral.com>                   #        #        :   :     "
+"                                                       #        #       :=====:    "
+"  Created: 2019/04/11 17:16:55 by wangjia           .  #        #      :       :   "
+"  Updated: 2019/04/11 17:16:55 by wangjia            ++:     :::#:::  :         :  "
+"                                                                                   "
+" ********************************************************************************* "
+
 let g:user_name = 'wangjia'
-let g:user_email = 'wangjia@mitegral.com'
+let g:user_email = 'jia.wang@mitegral.com'
 
 set nocompatible
 set encoding=utf8
@@ -82,7 +94,10 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 " tagbar
 map <F2> :TagbarToggle<cr>
 map <F3> :A<cr>
+map <F9> :make<cr>
+map <F9> :make test<cr>
 autocmd VimEnter *.h  nested TagbarOpen
+autocmd VimEnter *.go  nested TagbarOpen
 autocmd VimEnter *.cpp  nested TagbarOpen
 autocmd VimEnter *.c  nested TagbarOpen
 let tagbar_left=1
