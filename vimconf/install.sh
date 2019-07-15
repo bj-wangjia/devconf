@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ $# -ne 2 ]; then
     echo "USAGE:"
     echo "example: ./install.sh wangjia wangjia@mitegral.com"
@@ -36,7 +35,6 @@ function download_plugin()
 }
 
 
-
 function main
 {
     ls ~/.vimrc > /dev/null
@@ -60,3 +58,4 @@ function main
 }
 
 main
+
